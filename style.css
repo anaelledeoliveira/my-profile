@@ -1,0 +1,134 @@
+/*Colors and Fonts*/
+
+
+
+body {
+  background-color: #CCD3CA;
+  color: rgb(30, 30, 30);
+  .italiana-regular {
+  font-family: "Italiana", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}}
+
+h1, h2, h3 {
+  font-family: "Italiana", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+h1 {
+  color: #333A73;
+  font-weight: 100;
+  letter-spacing: 6px;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #294B29;
+  font-size: 24xp;
+  font-weight: bond;
+}
+a  {
+  text-decoration: none;
+  color: #6196A6;
+  transition: 0,2s ease;
+  font-weight: 600;
+  font-size: 24xp;
+}
+a :hover {
+   color : paleturquoise;
+}
+
+
+/* Custom design with class */
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media(max-width:500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+.card-design {
+  background-color: #F6F5F5;
+  padding : 40px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 1.0);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 150%;
+}
+
+.img-bordered {
+  border: 3px solid #94A684;
+}
+
+#leader {
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.9);
+}
+
+.btn-blue {
+  background-color: #6196A6;
+  border-radius: 5px;
+  color : white;
+  padding: 12px 20px;
+}
+.btn-blue :hover {
+  background-color: black;
+  color : white;
+}
+
+a:hover {
+  color:midnightblue;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline ;
+  padding : 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: #E4E4D0;
+}
+.list-inline i:hover {
+  color: #3A4D39;
+}
+
+/* Design adjustments using id (1% design remaining) */
+#introduction p { 
+  margin-bottom: 40px;
+}
+
+@media (max-width: 960px) {
+.container {
+  width: 700px;
+  }
+}
+@media (max-width: 720px) {
+.container {
+  width: 500px;
+  }
+}
+@media (max-width: 540px) {
+.container {
+  width: 300px;
+  }
+}
+
+
+
+
+
+
